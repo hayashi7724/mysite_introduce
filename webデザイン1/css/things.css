@@ -1,0 +1,295 @@
+@charset "UFT-8";
+
+/* #home .main-content */
+.wrapper {
+  width: 700px;
+}
+
+.wrapper .main-content {
+  padding-top: 200px;
+}
+
+.wrapper .main-content h2 {
+  font-family: 'Vollkorn',
+    serif;
+  font-weight: bold;
+}
+
+.main-content .container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+#container-inner img {
+  width: 100%;
+  height: auto;
+}
+
+#home h2 {
+  font-family: 'Vollkorn',
+    serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#postlist {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 1em;
+  margin-bottom: 40px;
+}
+
+#postlist .list {
+  margin-bottom: 60px;
+}
+
+#postlist .eyecatch a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+#postlist .eyecatch img {
+  width: 336px;
+  height: 336px;
+  object-fit: cover;
+}
+
+#postlist .posttype {
+  font-family: 'Apercu-M',
+    sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.01em;
+  line-height: 1em;
+  text-align: left;
+  height: 17px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+}
+
+#postlist .posttype a {
+  padding: 3px 8px 2px;
+  color: #202642;
+  background: #fff;
+  border: 1px solid #202642;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+#postlist h3 {
+  font-family: 'Apercu-M',
+    'TsukuGoPr5-D',
+    sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  line-height: 2em;
+  text-align: left;
+  margin-bottom: 16px;
+  max-height: 64px;
+  overflow: hidden;
+}
+
+#postlist .tag {
+  height: 1em;
+  margin-bottom: 8px;
+}
+
+#postlist .tag li {
+  font-family: 'Apercu-R',
+    'TsukuGoPr5-M',
+    sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.05em;
+  line-height: 1em;
+  text-align: left;
+  display: inline-block;
+  margin-right: 6px;
+  vertical-align: top;
+}
+
+#postlist .tag li a {
+  text-decoration: underline;
+  transition: 0.2s;
+  color: #202642;
+}
+
+#postlist .tag li a:hover {
+  text-decoration: none;
+}
+
+#postlist .date {
+  font-family: "Apercu-Mono" !important;
+  font-size: 10px !important;
+  line-height: 1em !important;
+  letter-spacing: -0.02em !important;
+  text-align: left;
+  color: #202642;
+}
+
+#home-projects .clearfix {
+  width: 100%;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row: 1fr 1fr;
+  margin-bottom: 100px;
+}
+
+#home-projects img {
+  vertical-align: bottom;
+  max-width: 100%;
+}
+
+.clearfix .image {
+  background-image: url(../images/T−シャツ.jpg);
+  background-size: cover;
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+}
+
+.clearfix .image:nth-child(2) {
+  background-image: url(../images/本.jpg);
+  background-size: cover;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.clearfix .image:last-child {
+  background-image: url(../images/ギャラリー.jpg);
+  background-size: cover;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+#side {
+  position: relative;
+  padding-top: 56px;
+  margin-top: 56px;
+  line-height: 2.2em;
+  border-top: solid thin #202642;
+}
+
+#side h4 {
+  font-family: Yeseva One,
+    cursive,
+    sans-serif;
+  font-size: 1pc;
+  line-height: 1em;
+  margin-bottom: 24px;
+}
+
+#a-list {
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+#a-list .year {
+  font-family: Apercu-Mono,
+    sans-serif;
+  font-size: 12px;
+  letter-spacing: .02em;
+  line-height: 1em;
+  margin-bottom: 1pc;
+}
+
+#t-list li {
+  font-weight: bolder;
+  float: left;
+  font-family: Apercu-R,
+    TsukuGoPr5-M,
+    sans-serif;
+  font-size: 10px;
+  line-height: 1em;
+  letter-spacing: 0.02em;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+/* footer */
+footer {
+  width: 100%;
+  height: 480px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+footer img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  filter: brightness(50%);
+}
+
+
+#footer {
+  display: grid;
+  position: absolute;
+  width: 700px;
+  top: 112px;
+  left: 50%;
+  margin-left: -350px;
+  z-index: 2;
+  border: 1px solid #FFFFFF;
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+#footer div {
+  padding: 32px;
+}
+
+#footer h3 {
+  color: #fff;
+  font-family: 'Yeseva One',
+    cursive,
+    sans-serif;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1em;
+  margin-bottom: 12px;
+}
+
+#footer .contents {
+  border-right: 2px #FFF dotted;
+  border-bottom: 2px #FFF dotted;
+}
+
+#footer li {
+  font-family: "Apercu-Mono",
+    sans-serif;
+  font-size: 12px;
+  letter-spacing: -0.02em;
+  line-height: 1em;
+  display: inline;
+  margin-right: 16px;
+}
+
+#footer a {
+  color: #FFF;
+}
+
+#footer .account {
+  border-bottom: 2px #FFF dotted;
+}
+
+.author {
+  grid-column: span 5;
+}
+
+#copyright {
+  width: 100%;
+  position: absolute;
+  bottom: 48px;
+  left: 0;
+  z-index: 2;
+  font-family: "Apercu-Mono",
+    sans-serif;
+  font-size: 10px;
+  letter-spacing: -0.02em;
+  line-height: 1em;
+  text-align: center;
+  color: #fff;
+}
